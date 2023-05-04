@@ -1,0 +1,22 @@
+#language-stack {
+    height:30vh;
+    margin-top:1rem;
+}
+
+h3 {
+    font-size:3vw;
+    text-align: center;
+    margin-bottom:2rem;
+}
+
+#language-stack-visual{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:3rem;
+}
+
+img {
+    width:auto;
+    height:5rem;
+}
