@@ -10,12 +10,14 @@ export default function Contacts() {
             id="profile-link"
             href="https://github.com/vanilladucky"
             target="_blank"
+            rel="noreferrer"
             class="btn contact-details"
             ><i class="fab fa-github"></i> GitHub</a
           >
           <a
             href="https://www.kaggle.com/kimmik123"
             target="_blank"
+            rel="noreferrer"
             class="btn contact-details"
             >Kaggle</a
           >
