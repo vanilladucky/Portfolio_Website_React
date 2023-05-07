@@ -13,10 +13,22 @@ h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap:wrap;
     gap:3rem;
 }
 
 img {
     width:auto;
     height:5rem;
+}
+
+@media only screen and (max-width: 429px) {
+    #language-stack-visual > img {
+        height:3rem;
+        width: auto;
+      }
+    
+      #language-stack > h3 {
+        font-size:1rem;
+      }
 }

@@ -100,7 +100,7 @@ li {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 429px) {
   nav {
     justify-content: space-evenly;
   }
@@ -160,10 +160,15 @@ li {
   transition:1s;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 429px) {
   #welcome-section p {
     font-size:1.3rem;
     line-height: 2.5rem;
+  }
+
+  .welcome-section-header{
+    font-size:2rem;
+    transition:0.5s;
   }
 }
 /* End of Welcome Section */
@@ -284,16 +289,42 @@ li {
   height:5rem;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 429px) {
 
   #introduction {
     width:inherit;
     height:auto;
-    padding: 70px 20px 20px 20px;
+    padding: 70px 20px 0px 20px;
+    margin:0;
   }
 
   #introduction > h3 {
-    font-size:40px;
+    font-size:2rem;
+  }
+
+  #introduction > p {
+    font-size:1rem;
+  }
+
+  #tech-stack > h3 {
+    font-size:1rem;
+  }
+  #web-dev > h4 {
+    font-size:0.8rem;
+  }
+
+  #deep-learning > h4 {
+    font-size:0.8rem;
+  }
+
+  #deep-learning-stack > img {
+    height:2rem;
+    width: auto;
+  }
+
+  #web-dev-stack > img {
+    height:2rem;
+    width: auto;
   }
 }
 /* End of Introduction Section */
@@ -374,7 +405,7 @@ li {
   font-size:20px;
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 429px) {
   #projects h2{
     padding-top:50px;
   }
@@ -456,7 +487,7 @@ li {
   transform: translateY(8px);
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 429px) {
 
   #projects{
     padding:25px;

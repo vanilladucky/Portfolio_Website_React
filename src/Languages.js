@@ -10,7 +10,7 @@ export default function Languages() {
         <section id = 'language-stack'>
             <h3>Programming languages</h3>
             <section id = 'language-stack-visual'>
-            <img src={python} alt="python" />
+                <img src={python} alt="python" />
                 <img src={c} alt="c" />
                 <img src={js} alt="js" />
                 <img src={html} alt="html" />
